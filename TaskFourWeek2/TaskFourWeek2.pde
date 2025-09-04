@@ -20,7 +20,7 @@ for (int i = 0; i < amountOfIteration; i++) {
 
   /*The reason for the println command, being inside the for loop, is because if it was outside, it will only print out the last number that the variable "number" gets
    after the iteration is done*/
-  //println(number);
+  println(number);
 }
 
 
@@ -38,7 +38,7 @@ int amountOfIteration4B = 21;
 for (int i = 0; i < amountOfIteration4B; i++) {
   //Modulus to print even numbers, and skip odd numbers
   if (i % 2 == 0) {
-    //println(i);
+    println(i);
   }
 }
 
